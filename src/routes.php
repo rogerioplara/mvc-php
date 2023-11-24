@@ -7,8 +7,11 @@ $router = new Router();
 /*
 $router->get : método que será utilizado do router (GET, POST...)
 primeiro parâmetro: endpoint que será utilizado
-segundo parâmetro: nome da classe do controller @ método a ser executado
+segundo parâmetro: nome da classe do controller @ método a ser acessado
 */
 $router->get('/', 'HomeController@index');
-$router->get('/sobre/{nome}', 'HomeController@sobreP');
-$router->get('/sobre', 'HomeController@sobre');
+
+// exibição do formulário
+$router->get('/novo', 'UsuariosController@add');
+// recebimento das informações
+$router->post('/novo', 'UsuariosController@addAction');

@@ -4,7 +4,7 @@ namespace src;
 
 class Config
 {
-    const BASE_DIR = '/mvc-php/public';
+    const BASE_DIR = '/b7web/mvc-php/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
