@@ -1,9 +1,12 @@
 <html>
 
-<header>
+<head>
     <title>Meu CRUD MVC</title>
-</header>
+    <link rel="stylesheet" href="<?= $base ?>/assets/css/style.css">
+</head>
 
 <body>
-    <h1>Título do site</h1>
-    <hr>
+    <header>
+        <h1>Título do site</h1>
+        <hr>
+    </header>
